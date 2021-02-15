@@ -1,0 +1,284 @@
+/* montserrat-300 - cyrillic */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+         url('../fonts/montserrat-v15-cyrillic-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v15-cyrillic-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-regular - cyrillic */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/montserrat-v15-cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v15-cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-600 - cyrillic */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('../fonts/montserrat-v15-cyrillic-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v15-cyrillic-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-700 - cyrillic */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/montserrat-v15-cyrillic-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v15-cyrillic-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-800 - cyrillic */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    src: local(''),
+         url('../fonts/montserrat-v15-cyrillic-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v15-cyrillic-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+body{
+    font-family: 'Montserrat';
+    margin: 0;
+}
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-family: 'Montserrat';
+    font-size: 48px;
+    line-height: 64px;
+    color: #FFFFFF; 
+    text-align: center; 
+}
+.primary-button{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px; 
+    padding: 14px 36px;
+    border: 0;
+}
+section{
+    border: 2px solid red;
+}
+.home-section{
+   height: 100vh;
+   background-image: url("../assets/img/Rectangle.jpg");
+   background-size: auto 100%;
+   background-position: center;
+}
+.navbar__list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  
+}
+.navbar__item{
+    margin-right: 40px;
+    margin-top: 40px;
+    
+}
+.navbar__item li {
+    display: inline-block;
+    width: 50%;
+    height: 100px;
+    
+}
+.navbar__item :last-child{
+    margin-right: 0;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.navbar__link{
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.home-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.home-content .first-title{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF; 
+}
+.home-content .button-block button{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px; 
+    padding: 14px 36px;
+}
+/*services_section*/
+.services-content h2{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    color: #323232;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.services-content p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+}
+.services-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.services-content .button-block button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    padding: 14px 36px;
+}
+
+/*наши работы section*/
+.our-works{
+    height: 100vh;
+    background: linear-gradient(#504DC2 50%, #fff 50%);
+
+}
+
+.our-works-title{
+    justify-content: space-between;
+    align-items: center;
+}
+.our-works-title h2{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    color: #FFFFFF;
+    
+}
+.our-works-title h2,
+.our-works-title-button{
+    flex: 1;
+    
+}
+.our-works-title-button{
+    text-align: right;
+}
+.our-works-items{
+   justify-content: space-between;
+}
+.our-works-item{
+    width: 32%;
+    border: 2px solid red;
+}
+.our-works-item img{
+    width: 100%;
+}
+.spam{
+    text-align: center;
+    height: 100vh;
+}
+.subscribe-block{
+    justify-content: center;
+    width: 490px;
+    margin: 0 auto;
+}
+.subscribe-block input{
+    border: 1px solid #F2F2F2;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    padding: 0;
+    flex: 2;
+}
+.subscribe-block input ::placeholder{
+    color: red;
+}
+.subscribe-block .primary-button{
+    border-radius: 0 30px 30px 0;
+    height: 45px;
+    flex: 1;
+}
+.our-projects{
+    height: 100vh;
+    background: #F6F6F8;
+}
+.our-projects-items{
+    justify-content: space-between;
+}
+.our-project-item{
+    width: 32%;
+    margin-right: 30px;
+
+}
+.our-project-item img{
+    width: 100%;
+}
+.our-projects-title h2{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    color: #000000;
+    margin: 0 auto;
+    padding-top: 100px;
+
+}
+.our-projects-title p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+    width: 730 px;
+    height: 41px;
+    padding-bottom: 70px;
+}
+.our-projects-button{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 130px;
+}
